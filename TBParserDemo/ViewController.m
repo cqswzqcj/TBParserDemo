@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TBPaserTool.h"
 @interface ViewController ()
 
 @end
@@ -16,14 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Wukong.torrent" ofType:nil];
+    NSDictionary *resultDict = [TBPaserTool parseWithFilePath:path];
+    NSLog(@"%@",resultDict);
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end

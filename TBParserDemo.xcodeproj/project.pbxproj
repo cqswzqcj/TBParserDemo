@@ -15,6 +15,11 @@
 		01760EB21FAC5C5200DFA270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01760EB11FAC5C5200DFA270 /* main.m */; };
 		01760EBC1FAC5C5200DFA270 /* TBParserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01760EBB1FAC5C5200DFA270 /* TBParserDemoTests.m */; };
 		01760EC71FAC5C5200DFA270 /* TBParserDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01760EC61FAC5C5200DFA270 /* TBParserDemoUITests.m */; };
+		E70095D01FAD9B21007D02C6 /* wukongTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E70095CF1FAD9B21007D02C6 /* wukongTest.m */; };
+		E70095D21FAD9D52007D02C6 /* educationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E70095D11FAD9D52007D02C6 /* educationTest.m */; };
+		E7E7DA541FACC70800074740 /* The_Bad_Education.torrent in Resources */ = {isa = PBXBuildFile; fileRef = E7E7DA531FACC70800074740 /* The_Bad_Education.torrent */; };
+		E7E7DA561FAD869900074740 /* Wukong.torrent in Resources */ = {isa = PBXBuildFile; fileRef = E7E7DA551FAD869900074740 /* Wukong.torrent */; };
+		E7E7DA591FAD8B3D00074740 /* TBPaserTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7DA581FAD8B3D00074740 /* TBPaserTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		01760EC21FAC5C5200DFA270 /* TBParserDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBParserDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01760EC61FAC5C5200DFA270 /* TBParserDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBParserDemoUITests.m; sourceTree = "<group>"; };
 		01760EC81FAC5C5200DFA270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E70095CF1FAD9B21007D02C6 /* wukongTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wukongTest.m; sourceTree = "<group>"; };
+		E70095D11FAD9D52007D02C6 /* educationTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = educationTest.m; sourceTree = "<group>"; };
+		E7E7DA531FACC70800074740 /* The_Bad_Education.torrent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = The_Bad_Education.torrent; sourceTree = "<group>"; };
+		E7E7DA551FAD869900074740 /* Wukong.torrent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wukong.torrent; sourceTree = "<group>"; };
+		E7E7DA571FAD8B3D00074740 /* TBPaserTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBPaserTool.h; sourceTree = "<group>"; };
+		E7E7DA581FAD8B3D00074740 /* TBPaserTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBPaserTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +117,14 @@
 				01760EA51FAC5C5200DFA270 /* ViewController.h */,
 				01760EA61FAC5C5200DFA270 /* ViewController.m */,
 				01760EA81FAC5C5200DFA270 /* Main.storyboard */,
+				E7E7DA531FACC70800074740 /* The_Bad_Education.torrent */,
+				E7E7DA551FAD869900074740 /* Wukong.torrent */,
 				01760EAB1FAC5C5200DFA270 /* Assets.xcassets */,
 				01760EAD1FAC5C5200DFA270 /* LaunchScreen.storyboard */,
 				01760EB01FAC5C5200DFA270 /* Info.plist */,
 				01760EB11FAC5C5200DFA270 /* main.m */,
+				E7E7DA571FAD8B3D00074740 /* TBPaserTool.h */,
+				E7E7DA581FAD8B3D00074740 /* TBPaserTool.m */,
 			);
 			path = TBParserDemo;
 			sourceTree = "<group>";
@@ -119,6 +134,8 @@
 			children = (
 				01760EBB1FAC5C5200DFA270 /* TBParserDemoTests.m */,
 				01760EBD1FAC5C5200DFA270 /* Info.plist */,
+				E70095CF1FAD9B21007D02C6 /* wukongTest.m */,
+				E70095D11FAD9D52007D02C6 /* educationTest.m */,
 			);
 			path = TBParserDemoTests;
 			sourceTree = "<group>";
@@ -240,7 +257,9 @@
 			files = (
 				01760EAF1FAC5C5200DFA270 /* LaunchScreen.storyboard in Resources */,
 				01760EAC1FAC5C5200DFA270 /* Assets.xcassets in Resources */,
+				E7E7DA561FAD869900074740 /* Wukong.torrent in Resources */,
 				01760EAA1FAC5C5200DFA270 /* Main.storyboard in Resources */,
+				E7E7DA541FACC70800074740 /* The_Bad_Education.torrent in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +287,7 @@
 				01760EA71FAC5C5200DFA270 /* ViewController.m in Sources */,
 				01760EB21FAC5C5200DFA270 /* main.m in Sources */,
 				01760EA41FAC5C5200DFA270 /* AppDelegate.m in Sources */,
+				E7E7DA591FAD8B3D00074740 /* TBPaserTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70095D21FAD9D52007D02C6 /* educationTest.m in Sources */,
+				E70095D01FAD9B21007D02C6 /* wukongTest.m in Sources */,
 				01760EBC1FAC5C5200DFA270 /* TBParserDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
